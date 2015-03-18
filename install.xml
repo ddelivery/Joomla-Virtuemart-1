@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://www.joomla.org/xml/dtd/1.5/module-install.dtd">
+<install type="component" version="1.5.0">
+	<name>ddelivery</name>
+	<creationDate>September 2013</creationDate>
+	<author>Development Team</author>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<copyright></copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>1.1.0</version>
+	<description>Ddelivery for VirtueMart</description>
+    
+    <installfile>install.ddelivery.php</installfile>
+    <uninstallfile>uninstall.ddelivery.php</uninstallfile>
+    
+    <administration>
+                <menu>DDelivery</menu>
+                <files folder="admin">
+                        <folder>application</folder>
+                		<folder>db</folder>
+                		<folder>ddelivery</folder>
+                        <folder>elements</folder>
+                		<folder>html</folder>
+                		<folder>shipping</folder>
+                		<folder>views</folder>
+                        <filename>index.html</filename>
+                        <filename>config.xml</filename>
+                        <filename>admin.ddelivery.php</filename>
+                </files>
+    </administration>
+        
+	<files>
+		<filename>ddelivery.php</filename>
+	</files>
+    
+</install>
